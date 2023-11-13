@@ -1,0 +1,578 @@
+@media (min-width:320px) and (max-width:575.98px){
+    .banner-txt h1 {
+        font-size: 46px;
+        line-height: 54px;
+    }
+    .banner-txt p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .banner-btn button {
+        font-size: 15px;
+    }
+    #banner {
+        padding-top: 166px;
+        padding-bottom: 151px;
+    }
+    #achivements .achivement-txt {
+        border: none;
+    }
+    #achivements .achivement-txt h3 {
+        font-size: 40px;
+    }
+    #achivements .achivement-txt p {
+        font-size: 25px;
+        line-height: 14px;
+    }
+    #achivements {
+        padding-top: 131px;
+        padding-bottom: 131px;
+    }
+    #why-part {
+        padding-top: 35px;
+        padding-bottom: 80px;
+    }
+    #why-part .choose-right {
+        padding-left: 15px;
+        text-align: center;
+    }
+    #why-part .choose-right h3 {
+        font-size: 35px;
+        margin-top: 50px;
+    }
+    #why-part .choose-right p {
+        font-size: 15px;
+        line-height: 26px;
+        margin-top: -6px;
+    }
+    #why-part .choose-right .choose-right-btn button {
+        margin-top: -11px;
+        margin-left: -14px;
+        font-size: 14px;
+    }
+    #service .service-work-part{
+        text-align: center;
+    }
+    #service .service-work-part h3 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    #service .service-btn button {
+        font-size: 14px;
+        margin-bottom: 27px;
+    }
+    #service .service-items h4 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    #service .service-items p {
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 14px;
+    }
+    #works .works-titel h3 {
+        font-size: 35px;
+        line-height: 39px;
+    }
+    #works .works-titel p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #works .work-impact h4 {
+        font-size: 23px;
+        line-height: 18px;
+    }
+    #works .work-done .work-impact p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    #works .work-impact-img img {
+        width: 100%;
+    }
+    #packages .package-price {
+        padding-left: 217px;
+    }
+    #testimonial .testimonial-titel h3 {
+        font-size: 17px;
+        line-height: 16px;
+    }
+    #testimonial .testimonial-info p {
+        font-size: 13px;
+        line-height: 24px;
+        margin-bottom: 18px;
+    }
+    #testimonial .testimonial-designation h5 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    #suggestion .suggestions {
+        display: flex;
+        padding-left: 111px;
+        padding-bottom: 60px;
+        flex-wrap: wrap;
+    }
+    #suggestion .suggestions ul {
+        margin-left: -122px;
+        margin-top: 33px;
+    }
+    #suggestion .suggestion-titel h3 {
+        font-size: 27px;
+        line-height: 45px;
+        text-align: center;
+        padding-left: 19px;
+        padding-bottom: 5px;
+    }
+    #suggestion .suggestions .suggestion-img img {
+        width: 100%;
+        margin-left: -11px;
+    }
+    #suggestion .suggestions ul li:first-child {
+        font-size: 13px;
+    }
+    #suggestion .suggestions ul li:nth-child(2) {
+        font-size: 13px;
+    }
+    #suggestion .suggestions ul li:nth-child(3) {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    #suggestion .suggestions ul li:nth-child(4) {
+        font-size: 13px;
+        margin-right: 24px;
+    }
+    #suggestion .suggestions ul li {
+        font-size: 13px;
+        line-height: 18px;
+        position: relative;
+    }
+    #suggestion .suggestion-txt h4 {
+        font-size: 13px;
+        line-height: 27px;
+        margin-left: -122px;
+        text-align: center;
+        position: relative;
+    }
+    #suggestion .suggestion-txt a {
+        font-size: 15px;
+        margin-left: -4px;
+    }
+    #footer .footer-logo img{
+        margin-left: 223px;
+    }
+    #footer .footer-part-left p {
+        padding-bottom: 29px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #footer .items {
+        padding-left: 33px;
+    }
+}
+
+
+
+/* =========================================================== */
+
+
+
+@media (max-width:320px){
+    .banner-txt h1 {
+        font-size: 26px;
+        line-height: 42px;
+    }
+    .banner-txt p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .banner-btn button {
+        font-size: 13px;
+    }
+    #banner {
+        padding-top: 152px;
+        padding-bottom: 70px;
+    }
+    #achivements .achivement-txt {
+        border: none;
+    }
+    #achivements .achivement-txt h3 {
+        font-size: 29px;
+    }
+    #achivements .achivement-txt p {
+        font-size: 17px;
+        line-height: 5px;
+    }
+    #achivements {
+        padding-top: 55px;
+        padding-bottom: 83px;
+    }
+    #why-part {
+        padding-top: 35px;
+        padding-bottom: 80px;
+    }
+    #why-part .choose-right {
+        padding-left: 15px;
+        text-align: center;
+    }
+    #why-part .choose-right h3 {
+        font-size: 27px;
+        margin-top: 20px;
+    }
+    #why-part .choose-right p {
+        font-size: 13px;
+        line-height: 26px;
+        margin-top: 0px;
+    }
+    #why-part .choose-reasons p {
+        font-size: 13px;
+        line-height: 22px;
+
+    }
+    #why-part .choose-right .choose-right-btn button {
+        margin-top: -11px;
+        margin-left: -14px;
+        font-size: 14px;
+    }
+    #service {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    #service .service-work-part{
+        text-align: center;
+    }
+    #service .service-work-part h3 {
+        font-size: 27px;
+        line-height: 44px;
+    }
+    #service .service-work-part p {
+        font-size: 15px;
+        line-height: 29px;
+    }
+    #service .service-btn button {
+        font-size: 14px;
+        margin-bottom: 27px;
+    }
+    #service .service-items {
+        padding: 40px;
+        margin-bottom: 24px;
+    }
+    #service .service-items h4 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    #service .service-items p {
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 14px;
+    }
+    #works {
+        padding-bottom: 71px;
+    }
+    #works .works-titel h3 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    #works .works-titel p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    #works .work-impact h4 {
+        font-size: 16px;
+        line-height: 12px;
+    }
+    #works .work-done .work-impact p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    #works .work-impact-img img {
+        width: 100%;
+    }
+    #packages {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    #packages .package-price {
+        padding-left: 217px;
+    }
+    #packages .package-titel h3 {
+        font-size: 27px;
+        line-height: 34px;
+    }
+    #packages .package-price-part h5 {
+        font-size: 22px;
+        line-height: 36px;
+    }
+    #packages .package-price {
+        padding-left: 105px;
+    }
+    #packages .package-price i {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    #packages .package-price h4 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    #packages .package-price-part p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    #testimonial .testimonial-titel h3 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    #testimonial .testimonial-info p {
+        font-size: 13px;
+        line-height: 26px;
+        margin-bottom: 18px;
+    }
+    #testimonial .testimonial-designation h5 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    #suggestion .suggestions .suggestion-img img {
+        width: 100%;
+    }
+    #suggestion .suggestions {
+        display: flex;
+        padding-left: 111px;
+        padding-bottom: 60px;
+        flex-wrap: wrap;
+        margin-left: -103px;
+    }
+    #suggestion .suggestions ul {
+        margin-left: -122px;
+        margin-top: 33px;
+    }
+    #suggestion .suggestions ul li {
+        font-size: 13px;
+        line-height: 17px;
+        position: relative;
+    }
+    #suggestion .suggestions ul li:first-child {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    #suggestion .suggestions ul li:nth-child(2) {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    #suggestion .suggestions ul li:nth-child(3) {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    #suggestion .suggestions ul li:nth-child(4) {
+        font-size: 13px;
+        line-height: 25px;
+        margin-right: 27px;
+    }
+    #suggestion .suggestion-titel h3 {
+        font-size: 26px;
+        line-height: 40px;
+        text-align: center;
+        padding-left: 6px;
+        padding-bottom: 5px;
+    }
+    #suggestion .suggestion-txt h4 {
+        font-size: 16px;
+        line-height: 30px;
+        margin-left: -89px;
+        text-align: center;
+        position: relative;
+    }
+    #suggestion .suggestion-txt a {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    #footer .footer-logo img {
+        margin-left: 88px;
+    }
+    #footer .footer-part-left p {
+        font-size: 16px;
+        line-height: 32px;
+        width: 287px;
+        padding-bottom: 29px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #footer .footer-items ul li a {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: rgba(254, 254, 254, 0.9);
+        margin-bottom: 25px;
+    }
+    #footer .footer-end-txt {
+        font-size: 13px;
+        line-height: 32px;
+    }
+    #footer .items {
+        padding-left: 33px;
+    }
+}
+
+
+
+/* ============================================================= */
+
+
+
+@media (min-width:575.98px) and ( max-width:767.98px){
+    #packages .package-price {
+        padding-left: 207px;
+    }
+    #banner {
+        padding-top: 223px;
+        padding-bottom: 121px;
+    }
+    .banner-txt h1 {
+        font-size: 53px;
+        line-height: 68px;
+    }
+    .banner-txt p {
+        font-size: 17px;
+        line-height: 37px;
+    }
+    .banner-btn button {
+        font-size: 16px;
+    }
+    #achivements {
+        padding-top: 144px;
+        padding-bottom: 144px;
+    }
+    #achivements .achivement-txt h3 {
+        font-size: 30px;
+        line-height: 49px;
+    }
+    #achivements .achivement-txt p {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    #achivements .achivement-txt {
+        border-right: none;
+    }
+    #why-part .choose-right {
+        padding-left: 0px;
+        text-align: center;
+    }
+    #why-part .choose-right h3 {
+        font-size: 30px;
+        line-height: 65px;
+        margin-top: 60px;
+    }
+    #why-part .choose-right p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    #service .service-work-part{
+        text-align: center;
+    }
+    #service .service-work-part h3 {
+        font-size: 30px;
+    }
+    #service .service-work-part p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    #service .service-btn button {
+        font-size: 15px;
+        margin-bottom: 43px;
+    }
+    #service .service-items h4 {
+        font-size: 24px;
+    }#service .service-items p {
+        font-size: 15px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    #service .service-items {
+        margin-bottom: 24px;
+    }
+    #works .works-titel h3 {
+        font-size: 30px;
+    }
+    #works .works-titel p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    #works .work-impact h4 {
+        font-size: 25px;
+    }
+    #works .work-done .work-impact p {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    #works .work-impact-img img {
+        width: 100%;
+    }
+    #packages .package-titel h3 {
+        font-size: 33px;
+    }
+    #packages .package-price-part h5 {
+        font-size: 25px;
+    }
+    #packages .package-price i {
+        font-size: 20px;
+    }
+    #packages .package-price h4 {
+        font-size: 36px;
+    }
+    #packages .package-price-part p {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    #testimonial .testimonial-titel h3 {
+        font-size: 30px;
+        padding-bottom: 118px;
+    }
+    #testimonial .testimonial-info p {
+        font-size: 16px;
+        line-height: 35px;
+    }
+    #testimonial .testimonial-designation h5 {
+        font-size: 19px;
+    }
+    #suggestion .suggestions {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    #suggestion .suggestion-titel h3 {
+        font-size: 40px;
+        padding-bottom: 37px;
+    }
+    #suggestion .suggestion-txt h4 {
+        font-size: 22px;
+        line-height: 44px;
+        margin-left: -123px;
+        position: relative;
+    }
+    #suggestion .suggestions ul {
+        margin-left: -125px;
+    }
+    #suggestion .suggestion-txt a {
+        font-size: 16px;
+        margin-left: -120px;
+    }
+    .footer-logo img {
+        margin-left: 205px;
+    }
+    #footer .footer-part-left p {
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .footer-right-items{
+        margin-left: -90px;
+    }
+}
+
+/* ============================================================ */
+
+
+
+@media (min-width:767.98px) and ( max-width:991.98px){
+    #packages .package-price {
+        padding-left: 286px;
+    }
+}

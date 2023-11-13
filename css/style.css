@@ -1,0 +1,816 @@
+/* ========== common css start ========== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,li{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+/* ========== common css end ========== */
+
+
+
+/* ========== navbar css start ========== */
+.toggle {
+    margin-right:40px ;
+}
+.toggle i{
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.offcanvas.show:not(.hiding), .offcanvas.showing {
+    z-index: 99999;
+}
+.offcanvas-body {
+    background: #160C6D;
+    opacity: 0.8;
+}
+.offcanvas-menu .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color:  #EFF4FA;
+}
+.offcanvas-menu .navbar-nav .nav-link:hover {
+    color:#1BBF00;
+    transition: all linear 0.5s;
+}
+.offcanvas-header{
+    background: #160C6D;
+    opacity: 0.8;
+}
+.navbar{
+    background: #160C6D;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 68px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color:  #EFF4FA;
+}
+.navbar-nav .nav-item:last-child .nav-link{
+    padding-right: 0;
+}
+.navbar-nav .nav-item:first-child .nav-link{
+    padding-left: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color:#1BBF00;
+    transition: all linear 0.5s;
+}
+.nav-btn button {
+    padding: 14px 28px;
+    background: #1BBF00;
+    color: #ffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 100px;
+    border-color: #1BBF00;
+    border-style: solid;
+}
+.nav-btn button:hover{
+    border-color: 1px solid #1BBF00;
+    background: transparent;
+    transition: all linear 0.5s;
+    color: #1BBF00;
+}
+/* ========== navbar css end ========== */
+
+
+
+/* ========== banner css start ========== */
+#banner{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 246px;
+    padding-bottom: 254px;
+    position: relative;
+    z-index: 1;
+}
+#banner::after{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(106, 98, 197, 0.891);
+    z-index: -1;
+}
+.banner-txt h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 100px;
+    color: #FAFAFE;
+}
+.banner-txt p{
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #E6E5F3;
+}
+.banner-btn-wraper{
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+.banner-btn button{
+    padding: 20px 40px;
+    background: #1BBF00;
+    color: #ffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 100px;
+    border-color: #1BBF00;
+    border-style: solid;
+}
+.banner-btn button:hover{
+    border-color: 1px solid #1BBF00;
+    background: transparent;
+    transition: all linear 0.5s;
+    color: #1BBF00;
+}
+.banner-btn-2 button{
+    margin-left: 28px;
+    background: transparent;
+}
+.banner-btn-2 button:hover{
+    color: #1BBF00;
+}
+/* ========== banner css end ========== */
+
+
+
+/* ========== achivement part css start ========== */
+#achivements{
+    padding-top: 283px;
+    padding-bottom: 283px;
+    position: relative;
+    background: #F9F9FB;
+}
+#achivements .achivement-txt h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 68px;
+    color: #1BBF00;
+}
+#achivements .achivement-txt p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #141135;
+}
+#achivements .achivement-txt{
+    border-right: 4px solid rgba(79, 88, 95, 0.2);
+    position: relative;
+}
+#achivements .achivement-border:last-child .achivement-txt{
+    border-right: none !important;
+}
+#achivements .achivement-img {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+/* ========== achivement part css end ========== */
+
+
+
+/* ========== choose part css start ========== */
+#why-part{
+    padding-top: 100px;
+    padding-bottom: 91px;
+    position: relative;
+    background: #FDFDFD;
+}
+#why-part .choose-reasons{
+    padding-top: 42px;
+    padding-left: 28px;
+    display: flex;
+    position: relative;
+}
+#why-part .choose-reasons:hover{
+    background: #FFFFFF;
+    box-shadow: 10px 30px 60px rgba(162, 169, 192, 0.15);
+    border-radius: 12px;
+    padding-top: 42px;
+    padding-left: 28px;
+    transition: all linear 0.4s;
+}
+#why-part .reason-2{
+    padding-top: 32px;
+    padding-bottom: 17px;
+}
+#why-part .reason-2:hover{
+    padding-top: 32px;
+    padding-bottom: 17px;
+    background: #FFFFFF;
+    box-shadow: 10px 30px 60px rgba(162, 169, 192, 0.15);
+    border-radius: 12px;
+    transition: all linear 0.4s;
+}
+#why-part .reason-3{
+    padding-top: 17px;
+    padding-bottom: 2px;
+}
+#why-part .reason-3:hover{
+    padding-top: 17px;
+    padding-bottom: 2px;
+    background: #FFFFFF;
+    box-shadow: 10px 30px 60px rgba(162, 169, 192, 0.15);
+    border-radius: 12px;
+    transition: all linear 0.4s;
+}
+#why-part .reason-4{
+    padding-top: 17px;
+    padding-bottom: 2px;
+}
+#why-part .reason-4:hover{
+    padding-top: 17px;
+    padding-bottom: 2px;
+    background: #FFFFFF;
+    box-shadow: 10px 30px 60px rgba(162, 169, 192, 0.15);
+    border-radius: 12px;
+    transition: all linear 0.4s;
+}
+#why-part .choose-reasons p {
+    margin-left: 37px;
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 38px;
+    color: #726E9E;
+    width: 319px;
+}
+
+#why-part .choose-reasons .choose-icon{
+    margin-top: 8px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #1BBF00;
+    position: relative;
+}
+.choose-icon::after{
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #CBC8F0;
+    margin-left: 13px;
+}
+#why-part .choose-right h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #141135;
+}
+#why-part .choose-right p {
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #726E9E;
+    margin-top: 9px;
+    margin-bottom: 40px;
+}
+#why-part .choose-right .choose-right-btn button {
+    padding: 20px 40px;
+    background: #1BBF00;
+    color: #F9F9F9;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 100px;
+    border-color: #1BBF00;
+    border-style: solid;
+}
+#why-part .choose-right .choose-right-btn button:hover{
+    border-color: 1px solid #1BBF00;
+    background: transparent;
+    transition: all linear 0.5s;
+    color: #1BBF00;
+}
+#why-part .choose-right{
+    padding-left: 186px;
+}
+#why-part .choose-bg{
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+/* ========== choose part css start ========== */
+
+
+
+/* ========== service part css start ========== */
+#service{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #F6F5FF;
+}
+#service .service-row-1{
+    margin-bottom: 24px;
+}
+#service .service-work-part h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color:#141135;
+}
+#service .service-work-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color:#6C7D93;
+}
+#service .service-btn button {
+    padding: 20px 40px;
+    background: #1BBF00;
+    color: #ffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 100px;
+    border-color: #1BBF00;
+    border-style: solid;
+}
+#service .service-btn button:hover{
+    border-color: 1px solid #1BBF00;
+    background: transparent;
+    transition: all linear 0.5s;
+    color: #1BBF00;
+}
+#service .service-items h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #141135;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+#service .service-items:hover h4 {
+    color: #FAFAFE;
+}
+#service .service-items p {
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #726E9E;
+    margin-bottom: 20px;
+}
+#service .service-items:hover p{
+    color: #E6E5F3;
+}
+#service .service-items a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #141135;
+    position: relative;
+}
+#service .service-items:hover a{
+    color: #F4F4F5;
+}
+#service .service-items a::after{
+    content: '';
+    top: 0;
+    right: -7px;
+    position: absolute;
+    width: 24%;
+    height: 100%;
+    padding: 8px 10px;
+    background: rgba(25, 191, 0, 0.3);
+    border-radius: 0px 100px 100px 0px;
+}
+#service .service-items:hover a::after{
+    background: rgba(255, 255, 255, 0.3);
+}
+#service .service-items a:hover:after{
+    width: 115%;
+    border-radius: 100px;
+    transition: all linear 0.5s;
+}
+#service .service-items{
+    background: #fff;
+    padding: 47px;
+    box-shadow: 0px 30px 60px rgba(162, 169, 192, 0.1);
+    border-radius: 20px;
+}
+#service .service-items:hover{
+    background: #6B62C5;
+    transition: all linear 0.5s;
+}
+/* ========== service part css end ========== */
+
+
+
+/* ========== work-part css start ========== */
+#works{
+    padding-top: 91px;
+    padding-bottom: 109px;
+    position: relative;
+}
+#works .works-titel h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #141135;
+}
+#works .works-titel p{
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color:#726E9E;
+}
+#works .works-titel {
+    margin-bottom: 71px;
+}
+#works .work-done {
+    display: flex;
+    margin-bottom: 40px;
+}
+#works .work-impact h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #141135;
+}
+#works .work-done .work-impact p {
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #726E9E;
+    /* width: 343px; */
+}
+#works .work-done .paragraph p{
+    /* width: 309px; */
+}
+#works .work-impact{
+    margin-left: 35px;
+}
+#works .work-bg-img{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+#works .work-impact-img{
+    position: relative;
+}
+/* ========== work-part css end ========== */
+
+
+
+/* ========== packages part css start ========== */
+#packages{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #F9F9FB;
+}
+#packages .package-titel h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #141135;
+}
+#packages .package-titel{
+    padding-bottom: 64px;
+}
+#packages .package-price-part{
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+#packages .package-price-part:hover{
+    background: #6B62C5;
+    transition: all linear 0.5s;
+}
+#packages .package-price-part img{
+    width: 100%;
+}
+#packages .package-price-part h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #141135;
+}
+#packages .package-price-part:hover h5{
+    color:#FAFAFE ;
+    transition: all linear 0.5s;
+}
+#packages .package-price{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+#packages .package-price h4{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 50px;
+    color: #1BBF00;
+}
+#packages .package-price i{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    color: #1BBF00;
+}
+#packages .package-price-part p{
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #726E9E;
+    width: 252px;
+    margin: 0 auto;
+}
+#packages .package-price-part:hover p{
+    color: #E6E5F3;
+    transition: all linear 0.5s;
+}
+#packages .package-price{
+    /* padding-left: 150px; */
+}
+/* ========== packages part css start ========== */
+
+
+
+/* ========== reviwe part css start ========== */
+#testimonial{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#testimonial .testimonial-titel h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #141135;
+    padding-bottom: 152px;
+}
+#testimonial .testimonial-info{
+    padding-top: 120px;
+    padding-bottom: 56px;
+    background: #FFFFFF;
+    box-shadow: -15px 30px 50px rgba(171, 175, 199, 0.301961);
+    border-radius: 20px;
+    position: relative;
+}
+#testimonial .testimonial-info img{
+    border-radius: 50%;
+    position: absolute;
+    top: -14%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    margin-bottom: 45px;
+}
+#testimonial .testimonial-info i{
+    font-size: 16px;
+    color: #FF7628;
+    margin-bottom: 33px;
+}
+#testimonial .testimonial-info p{
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #726E9E;
+    /* width: 800px; */
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+#testimonial .testimonial-designation h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color:#221A2C;
+    margin-bottom: 4px;
+}
+#testimonial .testimonial-designation p{
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #726E9E;
+}
+/* ========== reviwe part css start ========== */
+
+
+
+/* ========== suggestion part css start ========== */
+#suggestion{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+#suggestion .suggestion-bg-img img{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+#suggestion .suggestion-titel h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+    color: #030314;
+    padding-bottom: 64px;
+    padding-left: 94px;
+}
+#suggestion .suggestions{
+    display: flex;
+    padding-left: 94px;
+    padding-bottom: 60px;
+}
+#suggestion .suggestions .suggestion-img img{
+    border-radius: 20px;
+    position: relative;
+}
+#suggestion .suggestions ul{
+    display: flex;
+    margin-left: -31px;
+}
+#suggestion .suggestion-txt{
+    padding-left: 80px;
+}
+#suggestion .suggestions ul li{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #726E9E;
+}
+#suggestion .suggestions ul li:first-child{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1BBF00;
+    margin-right: 35px;
+}
+#suggestion .suggestions ul li:nth-child(2){
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color:#726E9E;
+    margin-right: 8px;
+}
+#suggestion .suggestions ul li:nth-child(3){
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color:#726E9E;
+    margin-right: 24px;
+}
+#suggestion .suggestions ul li:nth-child(4){
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color:#726E9E;
+    margin-right: 12px;
+}
+#suggestion .suggestion-txt h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+#suggestion .suggestion-txt a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #141135;
+    position: relative;
+    z-index: 1;
+}
+#suggestion .suggestion-txt a:hover{
+    color: #000;
+}
+#suggestion .suggestion-txt a::after {
+    content: '';
+    top: 0;
+    right: -7px;
+    position: absolute;
+    width: 24%;
+    height: 100%;
+    padding: 8px 10px;
+    background: rgba(25, 191, 0, 0.3);
+    border-radius: 0px 100px 100px 0px;
+    z-index: -1;
+}
+#suggestion .suggestion-txt a:hover::after{
+    width: 115%;
+    border-radius: 100px;
+    transition: all linear 0.5s;
+}
+/* ========== suggestion part css end ========== */
+
+
+
+/* ========== footer part css start ========== */
+#footer{
+    padding-top: 140px;
+    padding-bottom: 57px;
+    background: #48409C;
+}
+#footer .footer-logo{
+    padding-bottom: 44px;
+}
+#footer .footer-items h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FEFEFE;
+    margin-bottom: 48px;
+}
+#footer .items{
+    padding-left: 100px;
+}
+#footer .footer-items ul{
+    padding-left: 1px;
+}
+#footer .footer-items ul li a{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(254, 254, 254, 0.9);
+    margin-bottom: 30px;
+}
+#footer .footer-part-left p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(254, 254, 254, 0.9);
+    width: 449px;
+    padding-bottom: 189px;
+}
+#footer .footer-end-txt{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(254, 254, 254, 0.9);
+}
+#footer .footer-right-items:last-child .items{
+    padding-right: 0;
+}
+/* ========== footer part css start ========== */
